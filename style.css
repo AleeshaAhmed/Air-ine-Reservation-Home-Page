@@ -1,0 +1,137 @@
+@import url("https://font.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	outline: none;
+	font-family: "Poppins",sans-serif;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background:black;
+    border-radius: 1px solid #fff;
+
+
+}
+nav   .logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 20px;
+    font-weight: bold; 
+    text-transform: uppercase;
+    color: white;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+nav ul li a{
+    list-style-type: none;
+    display: inline-block;
+    transition:0.8s all ;
+}
+nav   ul li a{ 
+    
+    color: #fff;
+    padding: 30px;
+    text-decoration: none;
+    
+
+}
+nav  ul li a:hover{
+    background: blue;
+    border-radius: 120px;
+
+    
+}
+
+body{
+    background-image: url(aerooo.png);
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#form{
+    background-color: #000;
+    width: 800px;;
+    margin:auto;
+    padding: 10px;
+    opacity: 0.7;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    align-items: center;
+
+    
+    
+}
+#form h3{
+    border-bottom: 2px solid #3399ff;
+    width:210px;
+    padding: 4px;
+}
+::placeholder{
+    color:#fff
+}
+#input #input-group{
+    width:300px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff
+    
+}
+#input2 #input-group{
+    width:170px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff
+}
+#input3 #input-group{
+    margin-left: 50px;
+}
+#input4 #input-group{
+    width:300px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff
+}
+#input4 #input-group1{
+    width:615px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff
+}
+#input5 h3{
+    border-bottom: 2px solid #3399ff;
+    width:220px;
+    padding: 5px;
+}
